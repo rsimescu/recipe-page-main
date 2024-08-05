@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.outfit{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body{
+    background-color: #f1e6d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.baseContainer{
+    background-color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap :20px
+}
+
+.imageContainer{
+    width: 100%;
+}
+
+img{
+    border-radius: 10px;
+}
+
+.simpleRecipe{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.simpleRecipe p {
+    line-height: 20px;
+}
+
+.prepTime{
+    padding: 20px 40px 20px 40px;
+    background-color: #fff5fc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.prepTime ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingredients{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ingredients ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instructions ol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instructions{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: "Outfit", sans-serif;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  th {
+    font-weight: 400;
+    color: var(--wenge-brown);
+    text-align: start;
+    padding-left: 1.5rem;
+  }
+
+  td {
+    font-weight: 700;
+    color: var(--nutmeg);
+    padding: 0.6rem 0;
+  }
+
+  tr:not(:last-child){
+    border-bottom: 1px solid gray;
+  }
+
+
+ul,
+ol,
+dl {
+  font-family: "Outfit", sans-serif;
+  color: hsl(14, 45%, 36%);}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+li {
+    color: rgb(158, 156, 156);
+}
+hr{
+    background-color: rgb(204, 201, 201);
+}
+
+span{
+    color: hsl(14, 45%, 36%);
+}
+
+b{
+    color: hsl(14, 45%, 36%);
+}
+
+ol li::marker{
+    color:hsl(14, 45%, 36%) ;
+}
+
+@media screen and (max-width:750px) {
+    
+    .baseContainer{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px 15px 0px 15px;
+    }
+}
