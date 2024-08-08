@@ -44,6 +44,7 @@ body{
 }
 
 img{
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -157,6 +158,10 @@ ol li::marker{
     .baseContainer{
         box-sizing: border-box;
         width: 100%;
+        padding: 0;
+    }
+
+    .textPart{
         padding: 0px 15px 0px 15px;
     }
 }
